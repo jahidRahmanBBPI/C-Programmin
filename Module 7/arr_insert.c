@@ -11,7 +11,7 @@ int main(){
     for(int i = n; i >=idx+1; i--){
         a[i] = a[i-1];
     }
-    a[idx] = val;
+    a[idx] = val;      
     for(int i = 0; i<=n;i++){
         printf("%d ",a[i] );
     }
